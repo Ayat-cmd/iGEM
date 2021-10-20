@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Project</title>
+</head>
+<body>
+	<div id="particles-js"></div>
+    
+    <header>
+		<ul style="align-content: center;" >
+	
+			<li><a href="index.html">Home</a></li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">People</a>
+				<div class="dropdown-content">
+				  <a href="People.html">Team</a>
+				  <a href="People.html#Sponsors">Sponsors</a>
+				  <a href="People.html#Attributions">Attributions</a>
+				</div>
+			</li>
+	
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Project</a>
+				<div class="dropdown-content">
+				  <a href="#Description">Description</a>
+				  <a href="#Lab_Strategies">Lab Strategies</a>
+				  <a href="#Engineering">Engineering</a>
+				  <a href="#Results">Results</a>
+				  <a href="#Modeling">Modeling</a>
+				</div>
+			</li>
+	
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Contribution</a>
+				<div class="dropdown-content">
+				  <a href="Contribution.html">Parts</a>
+				  <a href="Contribution.html#Software">Software</a>
+				</div>
+			</li>
+	
+			<li class="dropdown">
+			  <a href="javascript:void(0)" class="dropbtn">Human practices</a>
+			  <div class="dropdown-content">
+				<a href="Human Practices.html">Values</a>
+				<a href="Human Practices.html#Expert_rewies">Expert rewies</a>
+				<a href="Human Practices.html#Addition">Addition</a>
+				<a href="Human Practices.html#Integrated_Human_Practices">Integrated Human Practices</a>
+			  </div>
+			</li>
+			<li><a href="Game.html">Game</a></li>
+			<li><a href="Proposed Implementation.html">Proposed Implementation</a></li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Collaboration</a>
+				<div class="dropdown-content">
+				  <a href="Collaboration.html">iGEM Stockholm</a>
+				  <a href="Collaboration.html#Book">Engineering Biology Problems Book</a>
+				  <a href="Collaboration.html#Patnership">Patnership</a>
+				</div>
+			  </li>
+			  <li><a href="Education&Communication.html">Education&Communication</a></li>
+			  <li><a href="Judging Form.html">Judging Form</a></li>
+		</ul>
+	</header>
+    <main>
+        <article class="art">
+            <h1>Project</h1>
+			<section>
+				<h2 id="Description">Description</h2>
+			</section>
+			<section>
+				<h2 id="Lab_Strategies">Lab Strategies</h2>
+			</section>
+			<section>
+				<h2 id="Engineering">Engineering</h2>
+			</section>
+			<section>
+				<h2 id="Results">Results</h2>
+			</section>
+			<section>
+				<h2 id="Modeling">Modeling</h2>
+			</section>
+        </article>
+    </main>
+	<footer></footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS('particles-js', {
+"particles": {
+  "number": {
+    "value": 60,
+    "density": {
+      "enable": true,
+      "value_area": 800
+    }
+  },
+  "color": {
+    "value": "#ffa500"
+  },
+  "shape": {
+    "type": "triangle",
+    "stroke": {
+      "width": 0,
+      "color": "#2A2A34"
+    },
+    "polygon": {
+      "nb_sides": 5
+    },
+    "image": {
+      "src": "img/github.svg",
+      "width": 620,
+      "height": 690
+    }
+  },
+  "opacity": {
+    "value": 1,
+    "random": false,
+    "anim": {
+      "enable": false,
+      "speed": 1,
+      "opacity_min": 0.1,
+      "sync": false
+    }
+  },
+  "size": {
+    "value": 3,
+    "random": true,
+    "anim": {
+      "enable": false,
+      "speed": 40,
+      "size_min": 0.1,
+      "sync": false
+    }
+  },
+  "line_linked": {
+    "enable": true,
+    "distance": 180,
+    "color": "#ffa500",
+    "opacity": 0.6654,
+    "width": 1.15
+  },
+  "move": {
+    "enable": true,
+    "speed": 2.7,
+    "direction": "none",
+    "random": false,
+    "straight": false,
+    "out_mode": "out",
+    "bounce": false,
+    "attract": {
+      "enable": false,
+      "rotateX": 7417.98,
+      "rotateY": 1200
+    }
+  }
+},
+"interactivity": {
+  "detect_on": "canvas",
+  "events": {
+    "onhover": {
+      "enable": false,
+      "mode": "bubble"
+    },
+    "onclick": {
+      "enable": false,
+      "mode": "repulse"
+    },
+    "resize": true
+  },
+  "modes": {
+    "grab": {
+      "distance": 400,
+      "line_linked": {
+        "opacity": 0.6
+      }
+    },
+    "bubble": {
+      "distance": 400,
+      "size": 40,
+      "duration": 2,
+      "opacity": 8,
+      "speed": 3
+    },
+    "repulse": {
+      "distance": 200,
+      "duration": 0.4
+    },
+    "push": {
+      "particles_nb": 4
+    },
+    "remove": {
+      "particles_nb": 2
+    }
+  }
+},
+"retina_detect": true
+});
+</script>
+</body>
+</html>
